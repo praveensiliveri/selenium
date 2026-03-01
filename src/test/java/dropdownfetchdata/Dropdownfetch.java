@@ -29,6 +29,7 @@ public class Dropdownfetch {
 	WebElement country=obj.getFirstSelectedOption();
 	System.out.println("the country name is "+country);
 	
+	
 
 	}
 

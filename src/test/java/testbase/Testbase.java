@@ -89,13 +89,11 @@ public class Testbase {
 		extent.flush();
 	}
 	
-	
 	@BeforeTest
 	public void testbefore() {
 		extent = new ExtentReports(System.getProperty("user.dir")+"\\report.html", true);
 		extent.loadConfig(new File(System.getProperty("user.dir")+"\\target\\Config\\extent-config.xml"));
 	}
-	
 	
 	
 	@AfterTest
@@ -105,10 +103,3 @@ public class Testbase {
 	}
 
 }
-	
-       
-
-
-
-
-
